@@ -1,0 +1,26 @@
+{
+    "name": "phpwine/winepopup",
+    "type": "library",
+    "description": "App for PHPWine v2.2.0",
+    "keywords": ["popup"],
+    "homepage": "https://github.com/PHPWine/WinePopup",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Leinner Zednanref",
+            "email": "syncdevprojects@gmail.com",
+            "homepage": "https://github.com/PHPWine/WinePopup",
+            "role": "Author and Maintainer"
+        } 
+    ],
+    "autoload" : {
+        "psr-4" : {
+            "PHPWinePopUp\\" : "src/"
+        }    
+     },
+    "require": {
+        
+        "php": ">=8.0"
+        
+    }
+}
