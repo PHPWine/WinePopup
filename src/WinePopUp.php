@@ -54,6 +54,72 @@ implements \PHPWineOptimizedHtml\Interfaces\PopupInterface
       $wine
     );
 
+  /**
+   * --------------------------------------------------------------------------------------------
+   * @condition
+   * @wine_compare function
+   * -------------------------------------------------------------------------------------------- 
+   * check current key and validate if true attributes property 
+   * 
+   * @Defined : return attemp invalid key! 
+   * @since: v1.0 doctrine
+   * @since: v2.2.0 wine
+   * DT: 12.06.2023 */
+    if ( 
+      !wine_compare(
+   
+         $this->prefix,
+       
+        'COMPONENT_REGISTERED_KEY_PREFIX') 
+     ) {
+     throw new \Exception("attempt invalid key : ".$this->prefix."!");
+     exit;
+    }
+
+  /**
+   * --------------------------------------------------------------------------------------------
+   * @condition
+   * @wine_compare function
+   * -------------------------------------------------------------------------------------------- 
+   * check current key and validate if true attributes property 
+   * 
+   * @Defined : return attemp invalid key! 
+   * @since: v1.0 doctrine
+   * @since: v2.2.0 wine
+   * DT: 12.06.2023 */
+    if ( 
+      !wine_compare(
+   
+         $this->popup,
+       
+        'COMPONENT_REGISTERED_KEY_POPUP') 
+     ) {
+     throw new \Exception("attempt invalid key : ".$this->popup."!");
+     exit;
+    }
+
+  /**
+   * --------------------------------------------------------------------------------------------
+   * @condition
+   * @wine_compare function
+   * -------------------------------------------------------------------------------------------- 
+   * check current key and validate if true attributes property 
+   * 
+   * @Defined : return attemp invalid key! 
+   * @since: v1.0 doctrine
+   * @since: v2.2.0 wine
+   * DT: 12.06.2023 */
+    if ( 
+      !wine_compare(
+   
+         $this->hook,
+       
+        'DOCTRINE_REGISTERED_KEY_HOOKS') 
+     ) {
+     throw new \Exception("attempt invalid key : ".$this->hook."!");
+     exit;
+    }
+
 
   }
    
