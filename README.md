@@ -61,7 +61,7 @@ composer require phpwine/winepopup
 ```
 
 ```PHP
- // PHP Date will popup show 
+ // ex. PHP Date will popup show 
  $post_to = date("m.d.y");
  // Date you schedule < string >
  $schedule = "12.25.23"
